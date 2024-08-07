@@ -6,6 +6,7 @@ section{
     justify-content: space-evenly;
     display: flex;
     
+    
 }
 
 h1{
@@ -19,6 +20,7 @@ h1{
     height: 480px;
     color: rgba(255, 255, 255, 0.938);
     transition: 0.5s;
+    color: brown;
 }
 
 h1:hover{
