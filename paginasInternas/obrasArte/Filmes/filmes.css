@@ -1,0 +1,28 @@
+body{
+    background-color: darkgrey;
+    
+}
+main{
+    top: 55px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 10%;
+}
+nav a:hover{
+    color: white;
+    font-size: 120%;
+    text-shadow: silver 0.2 0.2 0.3;
+}
