@@ -1,0 +1,10 @@
+footer{
+    font-family: arial;
+    position: relative;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: fit-content;
+    margin-left: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

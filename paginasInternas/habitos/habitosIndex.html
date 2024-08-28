@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween - Hábitos</title>
+    <link rel="shortcut icon" href="../habitos/habitosIMG/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./habitosCSS/habitosNavCSS.css">
+    <link rel="stylesheet" href="./habitosCSS/habitosHeaderCSS.css">
+    <link rel="stylesheet" href="./habitosCSS/habitosSectionCSS.css">
+    <link rel="stylesheet" href="./habitosCSS/habitosFooterCSS.css">
+</head>
+<body>
+    <nav>
+        <a href="../historia/">História</a>
+        <a href="../comidas/">Comidas Típicas</a> 
+        <a href="../atracoes/">Atrações </a>
+        <a href="../fantasia/">Fantasia</a>
+        <a href="../personagens/">Personagens</a>
+        <a href="../habitos/">Hábitos e Costumes</a>
+        <a href="../dicas/">Dicas</a>
+        <a href="../obrasArte/">Obras de Arte</a>
+    </nav>
+    <header id="text">
+        Halloween - Hábitos e Costumes
+    </header>
+
+    <section id="sectionExt" class="csectionExt">
+        <a href="javascript:section('fantasia')"> <!--Chama a função de revelar section interna com o valor 'fantasia' para o switch case-->
+            <h1 id="fantasias">
+                <span>Fantasias</span>
+            </h1>
+        </a>
+        <a href="javascript:section('historia')">
+            <h1 id="historias">
+                <span>Histórias de Terror</span>
+            </h1>
+        </a>
+        <a href="javascript:section('abobora')">
+            <h1 id="aboboras">
+                <span>Áboboras Lanterna</span>
+            </h1>
+        </a>
+        <a href="javascript:section('doce')">
+            <h1 id="doces">
+                <span>Doces ou Travessuras</span>
+            </h1>
+        </a>
+        <a href="javascript:section('cores')">
+            <h1 id="cores">
+                <span>Cores Preto e Laranja</span>
+            </h1>
+        </a>
+    </section>
+
+    <section id="sectionInt" class="csectionInt"> <!--Section que será revelada com JS-->
+    </section>
+
+    <footer>
+        <h2>Membros</h2>
+        <p>Pedro L.</p>
+        <p>Alexandre</p>
+        <p>Isac</p>
+        <p>Daniel Servini</p>
+        <p>Gustavo Cardoso</p>
+    </footer>
+
+    <a href="../../index.html" id="retornar">Voltar</a>
+    <script src="./habitosScript.js"></script>
+</body>
+</html>
